@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dropdown-arrow {
+  background-repeat: no-repeat;
+  width: 70%;
+  margin-left: 1rem;
+  appearance: none;
+  text-indent: 0.25rem;
+  outline: none;
+  /* background-color: rgb(229 231 235); */
+  padding: 0.25rem;
+  /* color: rgb(107 114 128); */
+  background-image: url("component/arrow.png");
+  background-position: 94%;
+  background-size: 0.75rem;
+  border: 2px solid rgb(193, 196, 202);
+  border-radius: 5%;
+}
